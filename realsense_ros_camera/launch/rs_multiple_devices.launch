@@ -1,6 +1,6 @@
 <launch>
-  <arg name="serial_no_camera1"    default=""/> <!-- Note: Replace with actual serial number -->
-  <arg name="serial_no_camera2"    default=""/> <!-- Note: Replace with actual serial number -->
+  <arg name="serial_no_camera1"    default="746112061798"/> <!-- Note: Replace with actual serial number -->
+  <arg name="serial_no_camera2"    default="739112061070"/> <!-- Note: Replace with actual serial number -->
 
   <group ns="camera1">
     <include file="$(find realsense_ros_camera)/launch/includes/nodelet.launch.xml">
